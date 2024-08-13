@@ -4,11 +4,12 @@ body {
 }
 
 input {
-    max-width: 272px;
+    width: 272px;
     background: #fff;
     border: 1px solid #808080;
     border-radius: 4px;
-    padding: 7px 117px 7px 15px;
+    padding: 7px 15px;
+    padding-right: 118px;
     margin-bottom: 43px;
 }
 
@@ -23,7 +24,7 @@ input:hover {
 }
 
 input#datetime-picker {
-    width: 138px;
+    max-width: 138px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -66,7 +67,7 @@ button:hover {
 .field {
     display: flex;
     flex-direction: column;
-    width: 55px;
+    width: 82px;
     align-items: center;
 }
 
